@@ -2,7 +2,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-    datasource:
-      url: jdbc:mysql://localhost:3306/transportador?useTimezone=true&serverTimezone=UTC
-      password: root
-      username: root
+  datasource:
+    url: jdbc:mysql://localhost:3306/transportador?useTimezone=true&serverTimezone=UTC
+    password: root
+    username: root
